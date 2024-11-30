@@ -26,30 +26,30 @@ import OperationDashboardPage from "./pages/employee/operation-employee/Operatio
 import SEnquiryFormPage from "./pages/employee/operation-employee/SEnquiryFormPage";
 import ParentKidsDetailsPage from "./pages/ParentKidsListPage";
 import HomePage from "./landingPage/HomePage";
-import OperationLoginPage from "./employee-component/operation-new/OperationLoginPage";
-// import OperationDashboardPage from "./pages/employee/operation-employee/OperationDashboardPage";
-// import SEnquiryFormPage from "./pages/employee/operation-employee/SEnquiryFormPage";
-import ListingEnquiries from "./pages/employee/operation-employee/ListingEnquiries";
-// import AddKid from "./components/parent/AddKid";
-import MyTaskPage from "./pages/employee/operation-employee/MyTaskPage";
-import ProspectPage from "./pages/employee/operation-employee/ProspectPage";
+// import OperationLoginPage from "./employee-component/operation-new/OperationLoginPage";
+// // import OperationDashboardPage from "./pages/employee/operation-employee/OperationDashboardPage";
+// // import SEnquiryFormPage from "./pages/employee/operation-employee/SEnquiryFormPage";
+// import ListingEnquiries from "./pages/employee/operation-employee/ListingEnquiries";
+// // import AddKid from "./components/parent/AddKid";
+// import MyTaskPage from "./pages/employee/operation-employee/MyTaskPage";
+// import ProspectPage from "./pages/employee/operation-employee/ProspectPage";
 // import ReferalPage from "./pages/employee/operation-employee/ReferalPage";
-import TaskAssignByMePage from "./pages/employee/operation-employee/TaskAssignByMePage";
-import TasksPage from "./pages/employee/operation-employee/TasksPage";
+// import TaskAssignByMePage from "./pages/employee/operation-employee/TaskAssignByMePage";
+// import TasksPage from "./pages/employee/operation-employee/TasksPage";
 
-import SupportPage from "./pages/employee/operation-employee/SupportPage";
-import MessageStusTrackPage from "./pages/employee/operation-employee/MessageStusTrackPage";
-import SupportRequest from "./pages/employee/operation-employee/SupportRequest";
-import ScheduleClass from "./pages/employee/operation-employee/ScheduleClass";
-import LeavesPage from "./pages/employee/operation-employee/LeavesPage";
-import LeaveFormPage from "./pages/employee/operation-employee/LeaveFormPage"
-import EmpAttendance from "./pages/employee/operation-employee/EmpAttendance"
+// import SupportPage from "./pages/employee/operation-employee/SupportPage";
+// import MessageStusTrackPage from "./pages/employee/operation-employee/MessageStusTrackPage";
+// import SupportRequest from "./pages/employee/operation-employee/SupportRequest";
+// import ScheduleClass from "./pages/employee/operation-employee/ScheduleClass";
+// import LeavesPage from "./pages/employee/operation-employee/LeavesPage";
+// import LeaveFormPage from "./pages/employee/operation-employee/LeaveFormPage"
+// import EmpAttendance from "./pages/employee/operation-employee/EmpAttendance"
 
-import Profile from "./pages/employee/operation-employee/Profile"
-import InvoicePage from "./pages/employee/operation-employee/InvoicePage"
-import StudentReport from "./pages/employee/operation-employee/StudentReport"
-import CoachFeedback from "./pages/employee/operation-employee/CoachFeedback"
-import AssigneTaskPage from "./pages/employee/operation-employee/AssigneTasksPage"
+// import Profile from "./pages/employee/operation-employee/Profile"
+// import InvoicePage from "./pages/employee/operation-employee/InvoicePage"
+// import StudentReport from "./pages/employee/operation-employee/StudentReport"
+// import CoachFeedback from "./pages/employee/operation-employee/CoachFeedback"
+// import AssigneTaskPage from "./pages/employee/operation-employee/AssigneTasksPage"
 import CenterOperationDashboardPage from "./pages/centeradmin/CenterOperationDashboardPage;";
 import CenterSEnquiryFormPage from "./pages/centeradmin/CenterSEnquiryFormPage";
 import CenterListingEnquiries from "./pages/centeradmin/CenterListingEnquiries";
@@ -121,14 +121,14 @@ function App() {
 
 
 
-        <Route path="/employee-login" element={<LoginPage />} />
+        {/* <Route path="/employee-login" element={<LoginPage />} />
         <Route path="/employee-operation-dashboard" element={<OperationDashboardPage />} />
         <Route path="/employee-operation-enquiry-form" element={<SEnquiryFormPage />} /> 
         <Route path="/employee-operation-enquiry-list" element={<ListingEnquiries/>} />
         <Route path="/employee-operation-tasks/add" element={<MyTaskPage/>} />
         <Route path="/employee-operation/prospects" element={<ProspectPage/>} />
         {/* <Route path="/employee-operation/referal" element={<ReferalPage/>} /> */}
-        <Route path="/employee-operation-tasks/assigntask" element={<TaskAssignByMePage/>} />
+        {/* <Route path="/employee-operation-tasks/assigntask" element={<TaskAssignByMePage/>} />
         <Route path="/employee-operation-tasks/assignedtasks" element={<AssigneTaskPage/>} />
 
         <Route path="/employee-operation-tasks/tasks" element={<TasksPage/>} />
@@ -143,7 +143,7 @@ function App() {
         <Route path="/employee-operation/profile" element={<Profile/>} />
         <Route path="/employee-operation/invoice" element={<InvoicePage/>} />
         <Route path="/employee-operation/studentreport" element={<StudentReport/>} />
-        <Route path="/employee-operation/coachfeedback" element={<CoachFeedback/>} />
+        <Route path="/employee-operation/coachfeedback" element={<CoachFeedback/>} /> */} 
 
 
 
