@@ -33,7 +33,7 @@ import ListingEnquiries from "./pages/employee/operation-employee/ListingEnquiri
 // import AddKid from "./components/parent/AddKid";
 import MyTaskPage from "./pages/employee/operation-employee/MyTaskPage";
 import ProspectPage from "./pages/employee/operation-employee/ProspectPage";
-import ReferalPage from "./pages/employee/operation-employee/ReferalPage";
+// import ReferalPage from "./pages/employee/operation-employee/ReferalPage";
 import TaskAssignByMePage from "./pages/employee/operation-employee/TaskAssignByMePage";
 import TasksPage from "./pages/employee/operation-employee/TasksPage";
 
@@ -127,7 +127,7 @@ function App() {
         <Route path="/employee-operation-enquiry-list" element={<ListingEnquiries/>} />
         <Route path="/employee-operation-tasks/add" element={<MyTaskPage/>} />
         <Route path="/employee-operation/prospects" element={<ProspectPage/>} />
-        <Route path="/employee-operation/referal" element={<ReferalPage/>} />
+        {/* <Route path="/employee-operation/referal" element={<ReferalPage/>} /> */}
         <Route path="/employee-operation-tasks/assigntask" element={<TaskAssignByMePage/>} />
         <Route path="/employee-operation-tasks/assignedtasks" element={<AssigneTaskPage/>} />
 
@@ -159,7 +159,7 @@ function App() {
         <Route path="/centeradmin/referal" element={<CenterReferalPage/>} />
         <Route path="/centeradmin-tasks/assigntask" element={<CenterTaskAssignByMePage/>} />
         <Route path="/centeradmin-tasks/assignedtasks" element={<CenterAssigneTasksPage/>} />
-    
+
         <Route path="/centeradmin-tasks/tasks" element={<CenterTasksPage/>} />
         <Route path="/centeradmin-tasks/support/add" element={<CenterSupportPage/>} />
         <Route path="/centeradmin-tasks/supportTrack" element={<CenterMessageStusTrackPage/>} />
